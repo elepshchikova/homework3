@@ -17,14 +17,21 @@
 // }
 
 
-int x1 = 7;
-int y1 = -5;
-int z1 = 0;
+// //int x1 = 7;
+// int y1 = -5;
+// int z1 = 0;
 
-int x2 = 1;
-int y2 = -1;
-int z2 = 9;
+// int x2 = 1;
+// int y2 = -1;
+// int z2 = 9;
 
-double distance = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2));
+// double distance = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2));
 
-System.Console.WriteLine(distance);
+// System.Console.WriteLine(distance);
+
+
+int n = 5;
+for (int i = 1; i <= n; i++)
+{
+    System.Console.WriteLine(Math.Pow(i, 3));
+}
