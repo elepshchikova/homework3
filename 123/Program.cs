@@ -30,8 +30,46 @@
 // System.Console.WriteLine(distance);
 
 
-int n = 5;
-for (int i = 1; i <= n; i++)
-{
-    System.Console.WriteLine(Math.Pow(i, 3));
-}
+// // int n = 5;
+// for (int i = 1; i <= n; i++)
+// {
+//     System.Console.WriteLine(Math.Pow(i, 3));
+// }
+
+// //System.Console.WriteLine("Введите число a");
+// double a = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите число b");
+// int b = Convert.ToInt32(Console.ReadLine());
+// double res = 1.0;
+// static.doublepower3(double a, int b) {
+
+//   if (b < 0);
+
+//   { 
+//     (a, b) = (1.0 / a, -b);
+//   }
+//   for (; b != 0; a *= a, b /= 2) {
+//     if (b % 2 != 0)
+//      { 
+//         res *= a; }
+//   }
+//   return res;  
+// }
+
+
+
+  
+  Console.Write("Введите число : ");
+  int num = int.Parse(Console.ReadLine());
+  
+  Console.Write("Введите степень :  ");
+  int n = int.Parse(Console.ReadLine());
+ 
+  int num_n=1;
+  for(int i=0; i<n; i++) {
+   num_n*=num;
+  }
+  Console.WriteLine("{0} ^ {1} = {2}", num, n, num_n);
+  Console.ReadKey();
+  return 0;
+ 
